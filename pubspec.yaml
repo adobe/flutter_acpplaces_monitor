@@ -1,6 +1,6 @@
 name: flutter_acpplaces_monitor
 description: Official Adobe Experience Platform support for Flutter apps. The Places Monitor extension allows for integration with Adobe Places Monitor.
-version: 1.0.0
+version: 1.0.1
 homepage: https://aep-sdks.gitbook.io/docs/
 repository: https://github.com/adobe/flutter_acpplaces_monitor
 

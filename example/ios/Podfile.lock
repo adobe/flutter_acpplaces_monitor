@@ -1,0 +1,61 @@
+PODS:
+  - ACPCore (2.6.2):
+    - ACPCore/iOS (= 2.6.2)
+  - ACPCore/iOS (2.6.2)
+  - ACPPlaces (1.3.1):
+    - ACPCore (>= 2.5.0)
+    - ACPPlaces/iOS (= 1.3.1)
+  - ACPPlaces/iOS (1.3.1):
+    - ACPCore (>= 2.5.0)
+  - ACPPlacesMonitor (2.1.3):
+    - ACPCore (>= 2.3.6)
+    - ACPPlaces (>= 1.3.0)
+    - ACPPlacesMonitor/iOS (= 2.1.3)
+  - ACPPlacesMonitor/iOS (2.1.3):
+    - ACPCore (>= 2.3.6)
+    - ACPPlaces (>= 1.3.0)
+  - Flutter (1.0.0)
+  - flutter_acpcore (0.0.1):
+    - ACPCore (~> 2.5)
+    - Flutter
+  - flutter_acpplaces (1.0.0):
+    - ACPPlaces (~> 1.3)
+    - Flutter
+  - flutter_acpplaces_monitor (0.0.1):
+    - ACPPlacesMonitor (~> 2.1.3)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_acpcore (from `.symlinks/plugins/flutter_acpcore/ios`)
+  - flutter_acpplaces (from `.symlinks/plugins/flutter_acpplaces/ios`)
+  - flutter_acpplaces_monitor (from `.symlinks/plugins/flutter_acpplaces_monitor/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ACPCore
+    - ACPPlaces
+    - ACPPlacesMonitor
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_acpcore:
+    :path: ".symlinks/plugins/flutter_acpcore/ios"
+  flutter_acpplaces:
+    :path: ".symlinks/plugins/flutter_acpplaces/ios"
+  flutter_acpplaces_monitor:
+    :path: ".symlinks/plugins/flutter_acpplaces_monitor/ios"
+
+SPEC CHECKSUMS:
+  ACPCore: ffa0f1b849bb19becac78587e18721c278e34857
+  ACPPlaces: b08a692490461516fd21b5227ef2abeb7d6cbab0
+  ACPPlacesMonitor: b3836dcba8b536ded88f150fed0a95f4e59d6a2d
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_acpcore: 781971fcbde815f237f85a4fb33539ffee53ab5d
+  flutter_acpplaces: d277aabf1758187f8fdd5798a9db4a0e6583c513
+  flutter_acpplaces_monitor: fb99d759889b8d999594805050fd988ff12d4231
+
+PODFILE CHECKSUM: 59f923a7c5d63904f078501340d66bc5ec8ed887
+
+COCOAPODS: 1.9.3

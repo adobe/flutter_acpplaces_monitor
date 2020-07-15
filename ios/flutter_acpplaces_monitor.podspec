@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_acpplaces_monitor'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Adobe Experience Platform PlacesMonitor support for Flutter apps.'
   s.homepage         = 'https://aep-sdks.gitbook.io/docs/'
   s.license          = { :file => '../LICENSE' }

@@ -8,11 +8,9 @@ the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTA
 OF ANY KIND, either express or implied. See the License for the specific language
 governing permissions and limitations under the License.
 */
-import 'dart:developer';
-
-import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_acpplaces_monitor/flutter_acpplaces_monitor.dart';
 import 'package:flutter_acpplaces_monitor/src/flutter_acpplaces_monitor_location_permission.dart';
@@ -64,25 +62,28 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Column(children: <Widget>[
             Text('ACPPlacesMonitor version = $_platformVersion\n'),
-            RaisedButton(
+            ElevatedButton(
               child: Text("ACPPlacesMonitor.start()"),
               onPressed: () => FlutterACPPlacesMonitor.start(),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text("ACPPlacesMonitor.stop(clearData)"),
               onPressed: () => FlutterACPPlacesMonitor.stop(true),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text("ACPPlacesMonitor.updateLocation()"),
               onPressed: () => FlutterACPPlacesMonitor.updateLocation(),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text("ACPPlacesMonitor.setRequestLocationPermission()"),
-              onPressed: () => FlutterACPPlacesMonitor.setRequestLocationPermission(FlutterACPPlacesMonitorLocationPermission.ALWAYS_ALLOW),
+              onPressed: () =>
+                  FlutterACPPlacesMonitor.setRequestLocationPermission(
+                      FlutterACPPlacesMonitorLocationPermission.ALWAYS_ALLOW),
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text("ACPPlacesMonitor.setPlacesMonitorMode()"),
-              onPressed: () => FlutterACPPlacesMonitor.setPlacesMonitorMode(FlutterACPPlacesMonitorModes.SIGNIFICANT_CHANGES),
+              onPressed: () => FlutterACPPlacesMonitor.setPlacesMonitorMode(
+                  FlutterACPPlacesMonitorModes.SIGNIFICANT_CHANGES),
             ),
           ]),
         ),

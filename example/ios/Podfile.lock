@@ -1,12 +1,12 @@
 PODS:
-  - ACPCore (2.6.2):
-    - ACPCore/iOS (= 2.6.2)
-  - ACPCore/iOS (2.6.2)
-  - ACPPlaces (1.3.1):
-    - ACPCore (>= 2.5.0)
-    - ACPPlaces/iOS (= 1.3.1)
-  - ACPPlaces/iOS (1.3.1):
-    - ACPCore (>= 2.5.0)
+  - ACPCore (2.9.3):
+    - ACPCore/main (= 2.9.3)
+  - ACPCore/main (2.9.3)
+  - ACPPlaces (1.4.0):
+    - ACPCore (>= 2.9.0)
+    - ACPPlaces/xcframeworks (= 1.4.0)
+  - ACPPlaces/xcframeworks (1.4.0):
+    - ACPCore (>= 2.9.0)
   - ACPPlacesMonitor (2.1.3):
     - ACPCore (>= 2.3.6)
     - ACPPlaces (>= 1.3.0)
@@ -21,7 +21,7 @@ PODS:
   - flutter_acpplaces (1.0.0):
     - ACPPlaces (~> 1.3)
     - Flutter
-  - flutter_acpplaces_monitor (0.0.1):
+  - flutter_acpplaces_monitor (1.0.1):
     - ACPPlacesMonitor (~> 2.1.3)
     - Flutter
 
@@ -48,14 +48,14 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_acpplaces_monitor/ios"
 
 SPEC CHECKSUMS:
-  ACPCore: ffa0f1b849bb19becac78587e18721c278e34857
-  ACPPlaces: b08a692490461516fd21b5227ef2abeb7d6cbab0
+  ACPCore: 5f00fcf7aba597b29b359e4c14f7f4f1f95503f3
+  ACPPlaces: 6d2f2f4a5d0eee5fd021c11219a7d6775e243ab8
   ACPPlacesMonitor: b3836dcba8b536ded88f150fed0a95f4e59d6a2d
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
   flutter_acpcore: 781971fcbde815f237f85a4fb33539ffee53ab5d
   flutter_acpplaces: d277aabf1758187f8fdd5798a9db4a0e6583c513
-  flutter_acpplaces_monitor: fb99d759889b8d999594805050fd988ff12d4231
+  flutter_acpplaces_monitor: dc7077286dd12b7a440868661961aa5dd95921d3
 
-PODFILE CHECKSUM: 59f923a7c5d63904f078501340d66bc5ec8ed887
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

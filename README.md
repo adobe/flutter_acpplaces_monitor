@@ -10,9 +10,9 @@ Add `flutter_acpcore`, `flutter_acppplaces` and `flutter_acpplaces_monitor` to y
 
 ```yaml
 dependencies:
-  flutter_acpcore: ">= 1.0.0"
-  flutter_acpplaces: ">= 1.0.0"
-  flutter_acpplaces_monitor: ">= 1.0.0"
+  flutter_acpcore: ">= 2.0.0"
+  flutter_acpplaces: ">= 2.0.0"
+  flutter_acpplaces_monitor: ">= 2.0.0"
 ```
 
 Then fetch the packages with:

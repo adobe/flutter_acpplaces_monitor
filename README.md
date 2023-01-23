@@ -7,6 +7,7 @@
 On **August 31, 2021**, the **Places Monitor** extension for the Adobe Experience Platform Mobile SDKs will be **deprecated**. The Places Monitor extension will not receive further updates or support beyond August 31st.
 
 ## About this project
+
 `flutter_acpplaces_monitor` is a flutter plugin for the iOS and Android [AEP Places Monitor SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-places) to allow for integration with flutter applications. Functionality to enable the PlacesMonitor extension is provided entirely through Dart documented below.
 
 ## Installation
